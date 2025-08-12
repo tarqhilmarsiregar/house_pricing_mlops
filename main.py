@@ -84,4 +84,3 @@ with st.form("house_pricing_form"):
         res = requests.post(url, json=json_data)
         
         st.write(f"Hasil Prediksi (Result): {res.json()["predictions"][0][0]}")
-
