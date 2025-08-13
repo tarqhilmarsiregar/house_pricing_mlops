@@ -79,8 +79,7 @@ with st.form("house_pricing_form"):
 
         json_data = dataframe_to_tfserving_json(df, int_cols=int_cols, float_cols=float_cols)
 
-        url = "https://house-pricing-tfserving-835674420163.europe-west1.run.app/v1/models/house_pricing_tfserving:predict"
-
+        url = st.secrets["general"]["API_URL"]
         res = requests.post(url, json=json_data)
         
         st.write(f"Hasil Prediksi (Result): {res.json()["predictions"][0][0]}")
