@@ -15,14 +15,14 @@ This project demonstrates a complete MLOps workflow for predicting house prices.
 ## Architecture
 <img width="3000" height="920" alt="House Pricing MLOps - Tarq Hilmar Siregar" src="https://github.com/user-attachments/assets/f1e19778-2378-408a-8119-c0fd499e3c1c" />
 
-## Tech Stack 🛠
+## Tech Stack
 - TensorFlow Extended (TFX)
 - Apache Beam
 - Docker
 - Google Cloud Run
 - Streamlit
 
-## Features ✨
+## Features
 - Automated ML pipeline using TFX + Apache Beam
 - Cloud-native deployment with Docker + Google Cloud Run
 - prediction via interactive Streamlit app
